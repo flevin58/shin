@@ -22,6 +22,6 @@ pub fn run(args: &Args) {
     match answer {
         Ok(true) => print!("yes"),
         Ok(false) => print!("no"),
-        Err(_) => {}
+        Err(_) => print!("{}", super::CANCELED),
     }
 }

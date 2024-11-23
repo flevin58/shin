@@ -80,5 +80,7 @@ pub fn run(args: &Args) {
         .prompt();
     if passw.is_ok() {
         print!("{}", passw.unwrap());
+    } else {
+        print!("{}", super::CANCELED);
     }
 }

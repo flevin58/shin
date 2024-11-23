@@ -3,6 +3,8 @@ mod cmd_password;
 mod cmd_select;
 mod cmd_text;
 
+const CANCELED: &str = "<canceled>";
+
 use clap::{Parser, Subcommand};
 
 #[derive(Parser)]

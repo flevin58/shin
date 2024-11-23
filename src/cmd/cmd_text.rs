@@ -10,6 +10,6 @@ pub fn run(args: &Args) {
     let answer = inquire::Text::new(&args.prompt).prompt();
     match answer {
         Ok(text) => print!("{}", text),
-        Err(_) => {}
+        Err(_) => print!("{}", super::CANCELED),
     }
 }

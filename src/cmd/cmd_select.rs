@@ -29,11 +29,15 @@ pub fn run(args: &Args) {
             inquire::MultiSelect::new(&args.prompt, args.choices.clone().unwrap()).prompt();
         if select.is_ok() {
             print!("{}", select.unwrap().join(","));
+        } else {
+            print!("{}", super::CANCELED);
         }
     } else {
         let select = inquire::Select::new(&args.prompt, args.choices.clone().unwrap()).prompt();
         if select.is_ok() {
             print!("{}", select.unwrap());
+        } else {
+            print!("{}", super::CANCELED);
         }
     }
 }
