@@ -4,7 +4,7 @@ It is based on the inquire crate and implements some of its features.
 It is *not* meant to be run in the console: it just outputs user selection to stdout.
 
 ## Usage
-response = $(shin <command> <flags>)
+response = $(shin command flags)
 
 commands have same name and meaning of the inquire crate:
 
