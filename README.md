@@ -15,15 +15,18 @@ commands have same name and meaning of the inquire crate:
 
 ## confirm
 
+```
 Usage: shin confirm [OPTIONS] --prompt <PROMPT>
 
 Options:
   -p, --prompt <PROMPT>  The prompt to display
   -y, --yes              The default value to return
   -h, --help             Print help
+```
 
 ## password
 
+```
 Usage: shin password [OPTIONS]
 
 Options:
@@ -32,9 +35,11 @@ Options:
   -s, --symbols          Must have at least one symbol
   -d, --digits           Must have at least one digit
   -h, --help             Print help
+```
 
 ## select
 
+```
 Usage: shin select [OPTIONS] --choices <CHOICES>...
 
 Options:
@@ -42,12 +47,14 @@ Options:
   -c, --choices <CHOICES>...  Options
   -m, --multi                 Allows multiple selections
   -h, --help                  Print help
-
+```
 
 ## text
 
+```
 Usage: shin text --prompt <PROMPT>
 
 Options:
   -p, --prompt <PROMPT>  The prompt to display
   -h, --help             Print help
+```
