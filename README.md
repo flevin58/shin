@@ -1,6 +1,6 @@
 # SHIN - SHell INput
 This program allows to have some cool user input for shell scripts.
-It is based on the inquire crate and implements some of its features.
+It is written in Rust and based on the inquire crate and implements some of its features.
 It is *not* meant to be run in the console: it just outputs user selection to stdout.
 
 ## Usage
